@@ -1,6 +1,6 @@
 const express = require('express');
 const { ApolloServer } = require('@apollo/server');
-const { expressMiddleware } = require('@apollo/server/express');
+const { expressMiddleware } = require('@apollo/server/express4');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
